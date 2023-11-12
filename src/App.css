@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100&display=swap');
+
+
+.App {
+  text-align: center;
+  
+}
+
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  gap :50px;
+  border-radius: 15px;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.boxINt {
+    border-radius: 15px;
+  background:linear-gradient(60deg, rgb(255, 132, 0) 80% ,rgb(240, 235, 235), rgb(255, 132, 0),white) ;
+   outline: 1px solid white;
+  box-shadow: 1px 7px 15px white;
+
+}
